@@ -11,13 +11,6 @@
             background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
             min-height: 100vh;
         }
-        .character-card {
-            cursor: pointer;
-            transition: transform 0.3s;
-        }
-        .character-card:hover {
-            transform: translateY(-10px);
-        }
         .character-card img {
             height: 250px;
             object-fit: cover;
@@ -89,7 +82,6 @@
 
             <div id="rmLoading" class="text-center py-5" style="display: none;">
                 <div class="spinner-border"></div>
-                <p>Cargando...</p>
             </div>
 
             <div id="rmCharacters" class="row row-cols-1 row-cols-md-3 row-cols-lg-4 g-4"></div>
@@ -120,7 +112,6 @@
 
             <div id="pkLoading" class="text-center py-5" style="display: none;">
                 <div class="spinner-border"></div>
-                <p>Cargando...</p>
             </div>
 
             <div id="pkCharacters" class="row row-cols-1 row-cols-md-3 row-cols-lg-4 g-4"></div>
@@ -171,7 +162,7 @@
 
             <div id="practicanteLoading" class="text-center py-5" style="display: none;">
                 <div class="spinner-border"></div>
-                <p>Cargando practicantes...</p>
+                <p>Cargando practicantes..</p>
             </div>
 
             <div id="practicantesList" class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4"></div>
